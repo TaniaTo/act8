@@ -1,0 +1,47 @@
+package dos;
+
+public class Card1 {
+
+	static Deck op =  new Deck();
+	  
+	
+	private String Palo;
+	private String Color;
+	private String Valor;
+	
+	public Card1(String Palo,String Color,String Valor) {
+		
+	this.Palo=Palo;
+	this.Color=Color;
+	this.Valor=Valor;
+	
+	}
+	
+	public String getPalo() {
+		return Palo;
+	}
+	public void setPalo(String palo) {
+		Palo = palo;
+	}
+	public String getColor() {
+		return Color;
+	}
+	public void setColor(String color) {
+		Color = color;
+	}
+	public String getValor() {
+		return Valor;
+	}
+	public void setValor(String valor) {
+		Valor = valor;
+	}
+
+	public static void main(String [] arg) {
+		
+		
+     System.out.println("BIENVENIDO AL JUEGO DE POKER");	
+     
+  
+    
+	}
+}
