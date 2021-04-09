@@ -1,0 +1,165 @@
+package dos;
+
+import java.util.Collections;
+import java.util.LinkedList;
+
+
+public class Deck {
+public static void main(String [] arg) {
+		
+		
+		
+		
+	
+		
+		LinkedList<String> deckCarta= new LinkedList<String>();
+		
+		  //TREBOL
+		  deckCarta.add("Trebol -> Negro -> Dos");
+		  deckCarta.add("Trebol -> Negro -> Tres");
+		  deckCarta.add("Trebol -> Negro -> Cuatro");
+		  deckCarta.add("Trebol -> Negro -> Cinco");
+		  deckCarta.add("Trebol -> Negro -> Seis");
+		  deckCarta.add("Trebol -> Negro -> Siete");
+		  deckCarta.add("Trebol -> Negro -> Ocho");
+		  deckCarta.add("Trebol -> Negro -> Nueve");
+		  deckCarta.add("Trebol -> Negro -> Diez");
+		  deckCarta.add("Trebol -> Negro -> JOTA");
+		  deckCarta.add("Trebol -> Negro -> REYNA");
+		  deckCarta.add("Trebol -> Negro -> SOTA");
+		  
+		  //CORAZON
+		  deckCarta.add("Corazon -> Rojo -> Dos");
+		  deckCarta.add("Corazon -> Rojo -> Tres");
+		  deckCarta.add("Corazon -> Rojo -> Cuatro");
+		  deckCarta.add("Corazon -> Rojo -> Cinco");
+		  deckCarta.add("Corazon -> Rojo -> Seis");
+		  deckCarta.add("Corazon -> Rojo -> Siete");
+		  deckCarta.add("Corazon -> Rojo -> Ocho");
+		  deckCarta.add("Corazon -> Rojo -> Nueve");
+		  deckCarta.add("Corazon -> Rojo -> Diez");
+		  deckCarta.add("Corazon -> Rojo -> JOTA");
+		  deckCarta.add("Corazon -> Rojo -> REYNA");
+		  deckCarta.add("Corazon -> Rojo -> SOTA");
+		  
+		  //DIAMANTES
+		  
+		  deckCarta.add("Diamante -> Rojo -> Dos");
+		  deckCarta.add("Diamante -> Rojo -> Tres");
+		  deckCarta.add("Diamante -> Rojo -> Cuatro");
+		  deckCarta.add("Diamante -> Rojo -> Cinco");
+		  deckCarta.add("Diamante -> Rojo -> Seis");
+		  deckCarta.add("Diamante -> Rojo -> Siete");
+		  deckCarta.add("Diamante -> Rojo -> Ocho");
+		  deckCarta.add("Diamante -> Rojo -> Nueve");
+		  deckCarta.add("Diamante -> Rojo -> Diez");
+		  deckCarta.add("Diamante -> Rojo -> JOTA");
+		  deckCarta.add("Diamante -> Rojo -> REYNA");
+		  deckCarta.add("Diamante -> Rojo -> SOTA");
+		  
+		  //CARTAS DE PICA
+		  
+		  deckCarta.add("Pica -> Negro-> Dos");
+		  deckCarta.add("Pica -> Negro-> Tres");
+		  deckCarta.add("Pica -> Negro-> Cuatro");
+		  deckCarta.add("Pica -> Negro-> Cinco");
+		  deckCarta.add("Pica -> Negro-> Seis");
+		  deckCarta.add("Pica -> Negro-> Siete");
+		  deckCarta.add("Pica -> Negro-> Ocho");
+		  deckCarta.add("Pica -> Negro-> Nueve");
+		  deckCarta.add("Pica -> Negro-> Diez");
+		  deckCarta.add("Pica -> Negro-> JOTA");
+		  deckCarta.add("Pica -> Negro-> REYNA");
+		  deckCarta.add("Pica -> Negro-> SOTA");
+		 
+		  
+		  
+		//METODO 1 DECK
+			
+			System.out.println("---METODO.1 DECK---");
+			System.out.println("Se mezclo el Deck");
+			
+		  
+
+		  Collections.shuffle(deckCarta);
+		    
+		    for(String str: deckCarta){
+		      
+		    }
+		    
+		    Collections.shuffle(deckCarta);
+		    
+		    for(String str: deckCarta){
+             
+				 
+		    }  
+		  
+		  
+		  
+				
+				
+				//METODO 2 
+				System.out.println("*****************");
+				System.out.println("---METODO 2.HEAD---");
+				System.out.println("TU CARTA ES :");
+				System.out.println(deckCarta.get(1));
+				deckCarta.remove(1);
+				System.out.println(deckCarta.size());
+				System.out.println("QUEDAN...");
+				
+				
+				//METODO 3
+				System.out.println("*****************");
+				System.out.println("---METODO.PINK---");
+
+				
+				
+				System.out.println("TU CARTA ES :");
+				System.out.println(deckCarta.get(1));
+			    deckCarta.remove(1);
+				System.out.println(deckCarta.size());
+				System.out.println("QUEDAN...");
+				
+				
+				
+				
+				
+				
+				//METODO 4
+				System.out.println("*****************");
+				System.out.println("---METODO HAND---");
+
+				
+				System.out.println("TU CARTA ES :");
+				System.out.println(deckCarta.get(1));
+				deckCarta.remove(1);
+				
+				System.out.println("TU CARTA ES :");
+				System.out.println(deckCarta.get(2));
+				deckCarta.remove(2);
+				
+				System.out.println("TU CARTA ES :");
+				System.out.println(deckCarta.get(3));
+				deckCarta.remove(3);
+				
+				System.out.println("TU CARTA ES :");
+				System.out.println(deckCarta.get(4));
+				deckCarta.remove(4);
+				
+				System.out.println("TU CARTA ES :");
+				System.out.println(deckCarta.get(5));
+				deckCarta.remove(5);
+				
+				System.out.println(deckCarta.size());
+				System.out.println("QUEDAN...");
+				
+				//METODO 5
+				
+				
+				
+			}
+	
+}
+
+
+
